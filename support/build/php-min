@@ -44,6 +44,7 @@ export PATH=${OUT_PREFIX}/bin:$PATH
 	--disable-pdo \
 	--without-pdo-sqlite \
 	--with-readline \
+	--enable-sysvsem \
 	--disable-session \
 	--disable-simplexml \
 	--without-sqlite3 \
